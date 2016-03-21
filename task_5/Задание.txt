@@ -1,0 +1,5 @@
+Написать программу hello.py, которая выводит на экран фразу «Hello world».
+
+Пример использования
+$ python hello.py
+$ Hello world

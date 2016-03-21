@@ -1,0 +1,7 @@
+file = open("queue.txt")
+s = file.read()
+list_file = s.split()
+max_age = max(list_file)
+index = list_file.index(max_age)
+list_file.insert(0, list_file.pop(index))
+print(" ".join(list_file))
